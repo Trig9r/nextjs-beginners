@@ -1,22 +1,24 @@
 'use client';
-import React from 'react';
+import useSWR from 'swr';
 import Link from 'next/link';
-import { shallow } from 'zustand/shallow';
+// import { shallow } from 'zustand/shallow';
 
-import { usePosts } from '@/store';
+// import { usePosts } from '@/store';
+import { getAllPosts } from '@/utils/api/hooks/getPosts';
 
 export const Posts = () => {
-  const [posts, loading, getAllPosts] = usePosts(
-    (state) => [state.posts, state.loading, state.getAllPosts],
-    shallow,
-  );
+  const { data: posts, isLoading } = useSWR('posts', getAllPosts);
+  // const [posts, loading, getAllPosts] = usePosts(
+  //   (state) => [state.posts, state.loading, state.getAllPosts],
+  //   shallow,
+  // );
 
-  React.useEffect(() => {
-    getAllPosts();
-  }, []);
+  // React.useEffect(() => {
+  //   getAllPosts();
+  // }, []);
 
-  if (loading) return <h3>Загрузка...</h3>;
-  if (posts.length === 0) return <div>Нету постов с таким названием</div>;
+  if (isLoading) return <h3>Загрузка...</h3>;
+  // if (posts.length === 0) return <div>Нету постов с таким названием</div>;
 
   return (
     <ul>

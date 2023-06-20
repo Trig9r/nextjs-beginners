@@ -6047,12 +6047,6 @@ __turbopack_esm__({
 });
 const chunks = [
   {
-    "path": "_next/static/chunks/store_index_ts_465120._.js",
-    "included": [
-      "[project]/store/index.ts (ecmascript)"
-    ]
-  },
-  {
     "path": "_next/static/chunks/components_Posts_tsx_b53fce._.js",
     "included": [
       "[project]/components/Posts.tsx (ecmascript)"
@@ -6074,39 +6068,9 @@ const chunks = [
     ]
   },
   {
-    "path": "_next/static/chunks/node_modules_zustand_shallow_9fb33d.js",
-    "included": [
-      "[project]/node_modules/zustand/shallow.js (ecmascript)"
-    ]
-  },
-  {
-    "path": "_next/static/chunks/node_modules_zustand_vanilla_83945a.js",
-    "included": [
-      "[project]/node_modules/zustand/vanilla.js (ecmascript)"
-    ]
-  },
-  {
-    "path": "_next/static/chunks/node_modules_zustand_esm_shallow_mjs_148878._.js",
-    "included": [
-      "[project]/node_modules/zustand/esm/shallow.mjs (ecmascript)"
-    ]
-  },
-  {
-    "path": "_next/static/chunks/node_modules_zustand_esm_index_mjs_80ee69._.js",
-    "included": [
-      "[project]/node_modules/zustand/esm/index.mjs (ecmascript)"
-    ]
-  },
-  {
     "path": "_next/static/chunks/8069e_use-sync-external-store_cjs_use-sync-external-store-shim_development_705920.js",
     "included": [
       "[project]/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js (ecmascript)"
-    ]
-  },
-  {
-    "path": "_next/static/chunks/d9b6c_cjs_use-sync-external-store-shim_with-selector_development_245121.js",
-    "included": [
-      "[project]/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js (ecmascript)"
     ]
   },
   {
@@ -6116,9 +6080,15 @@ const chunks = [
     ]
   },
   {
-    "path": "_next/static/chunks/node_modules_use-sync-external-store_shim_with-selector_3a38f9.js",
+    "path": "_next/static/chunks/node_modules_swr__internal_dist_index_mjs_0d422b._.js",
     "included": [
-      "[project]/node_modules/use-sync-external-store/shim/with-selector.js (ecmascript)"
+      "[project]/node_modules/swr/_internal/dist/index.mjs (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_swr_core_dist_index_mjs_d61b63._.js",
+    "included": [
+      "[project]/node_modules/swr/core/dist/index.mjs (ecmascript)"
     ]
   },
   {
@@ -6172,27 +6142,9 @@ __turbopack_esm__({
 });
 const chunks = [
   {
-    "path": "_next/static/chunks/store_index_ts_b0cbba._.js",
-    "included": [
-      "[project]/store/index.ts (ecmascript)"
-    ]
-  },
-  {
     "path": "_next/static/chunks/components_Search_tsx_b53fce._.js",
     "included": [
       "[project]/components/Search.tsx (ecmascript)"
-    ]
-  },
-  {
-    "path": "_next/static/chunks/node_modules_zustand_vanilla_b07ddb.js",
-    "included": [
-      "[project]/node_modules/zustand/vanilla.js (ecmascript)"
-    ]
-  },
-  {
-    "path": "_next/static/chunks/node_modules_zustand_esm_index_mjs_3f6108._.js",
-    "included": [
-      "[project]/node_modules/zustand/esm/index.mjs (ecmascript)"
     ]
   },
   {
@@ -6202,21 +6154,21 @@ const chunks = [
     ]
   },
   {
-    "path": "_next/static/chunks/d9b6c_cjs_use-sync-external-store-shim_with-selector_development_3d22f0.js",
-    "included": [
-      "[project]/node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js (ecmascript)"
-    ]
-  },
-  {
     "path": "_next/static/chunks/node_modules_use-sync-external-store_shim_index_d0e0c0.js",
     "included": [
       "[project]/node_modules/use-sync-external-store/shim/index.js (ecmascript)"
     ]
   },
   {
-    "path": "_next/static/chunks/node_modules_use-sync-external-store_shim_with-selector_0f9218.js",
+    "path": "_next/static/chunks/node_modules_swr__internal_dist_index_mjs_0c2195._.js",
     "included": [
-      "[project]/node_modules/use-sync-external-store/shim/with-selector.js (ecmascript)"
+      "[project]/node_modules/swr/_internal/dist/index.mjs (ecmascript)"
+    ]
+  },
+  {
+    "path": "_next/static/chunks/node_modules_swr_core_dist_index_mjs_939227._.js",
+    "included": [
+      "[project]/node_modules/swr/core/dist/index.mjs (ecmascript)"
     ]
   },
   {
